@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		5803D11229F56C3F00A0C00F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5803D11129F56C3F00A0C00F /* main.m */; };
+		5803D11A29F56D0900A0C00F /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 5803D11929F56D0900A0C00F /* Person.m */; };
+		5803D11D29F570E500A0C00F /* StudentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5803D11C29F570E500A0C00F /* StudentModel.m */; };
+		5803D12329F6706900A0C00F /* PersonSon.m in Sources */ = {isa = PBXBuildFile; fileRef = 5803D12229F6706900A0C00F /* PersonSon.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		5803D10E29F56C3F00A0C00F /* KVC学习 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "KVC学习"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5803D11129F56C3F00A0C00F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5803D11829F56D0800A0C00F /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		5803D11929F56D0900A0C00F /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		5803D11B29F570E500A0C00F /* StudentModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StudentModel.h; sourceTree = "<group>"; };
+		5803D11C29F570E500A0C00F /* StudentModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StudentModel.m; sourceTree = "<group>"; };
+		5803D12129F6706900A0C00F /* PersonSon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonSon.h; sourceTree = "<group>"; };
+		5803D12229F6706900A0C00F /* PersonSon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonSon.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				5803D11129F56C3F00A0C00F /* main.m */,
+				5803D11829F56D0800A0C00F /* Person.h */,
+				5803D11929F56D0900A0C00F /* Person.m */,
+				5803D12129F6706900A0C00F /* PersonSon.h */,
+				5803D12229F6706900A0C00F /* PersonSon.m */,
+				5803D11B29F570E500A0C00F /* StudentModel.h */,
+				5803D11C29F570E500A0C00F /* StudentModel.m */,
 			);
 			path = "KVC学习";
 			sourceTree = "<group>";
@@ -119,6 +134,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5803D11A29F56D0900A0C00F /* Person.m in Sources */,
+				5803D12329F6706900A0C00F /* PersonSon.m in Sources */,
+				5803D11D29F570E500A0C00F /* StudentModel.m in Sources */,
 				5803D11229F56C3F00A0C00F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
